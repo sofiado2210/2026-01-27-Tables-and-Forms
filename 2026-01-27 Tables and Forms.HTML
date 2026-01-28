@@ -1,0 +1,81 @@
+<!-- Sofia Delgado 
+Tables and Forms -->
+
+<form>
+
+<h2>Pizza Ordering Form</h2>
+
+<h3>Contact Information</h3>
+<label for="name"> Name:</label>  <input type="text" id="name" name="name"><br>
+<label for="phone"> Phone:</label>  <input type="text" id="phone" phone="phone"><br>
+<label for="email"> Email:</label>  <input type="text" id="email" email="email"><br>
+
+<h2>Select Pizza Size</h2>
+<label for="topings">Pizza Size:</label>
+<select name="size" id="size">
+      <option value="Select Size">Select Size</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+      <option value="XLarge">XLarge</option>
+    </select>
+    
+<h2>Select Toppings</h2>
+
+    <label>
+      <input type="checkbox" name="toppings" value="Pepperoni"> Pepperoni
+    </label>
+    <label>
+      <input type="checkbox" name="toppings" value="Mushroom"> Mushroom
+    </label><br>
+    <label>
+      <input type="checkbox" name="toppings" value="Chicken"> Chicken
+    </label>
+    <label>
+        <input type="checkbox" name="toppings" value="Peppers"> Peppers
+    </label><br>
+    <label>
+        <input type="checkbox" name="toppings" value="Black Olives"> Black Olives
+      </label>
+    <label>
+        <input type="checkbox" name="toppings" value="Pineapple"> Pineapple
+    </label><br>
+  
+  <h2>Additional Instructions</h2>
+  <input type="text" id="Notes" Notes="Instructions" value="Add Instructions"><br>
+  <br>
+    <button type="submit">Submit</button>
+
+<p>List of My Favorite Games</p>
+<table border="1">
+    <thead>
+      <tr>
+        <th>Developer</th>
+        <th>Title</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4">Nintendo</td>
+        <td>Mario Kart</td>
+        <td>1992</td>
+      </tr>
+      <tr>
+        <td>Super Smash Bros</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Mario Party</td>
+        <td>1998</td>
+      </tr>
+      <tr>
+        <td>Super Mario Galaxy</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td colspan="3">Count: 4</td>
+      </tr>
+    </tbody>
+  </table>
+
+</form>
